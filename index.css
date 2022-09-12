@@ -1,0 +1,48 @@
+ .flex-container{
+    display:inline;
+   
+    flex-direction: row;
+    display: inline-block;
+ }
+ p,h3{
+     text-align: center;
+    
+}
+.mainbox{
+    height: 400px;
+    width: 600px;
+    margin: 40px;
+    border: 1px solid black;
+}
+.secbox{
+    display: flex;
+    height: 200px;
+    width: 570px;
+  
+    border: 1px solid black;
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    /* margin: 50px; */
+justify-content: center;
+    /* border: 1px solid black; */
+
+}
+div.box1>img{
+    height: 90px;
+    width: 50px;
+    /* display: inline-block; */
+    justify-content: center;
+    position:relative; left:80px; top: 50px;
+
+}
+.box2{
+    height: 150px;
+    width: 350px;
+    margin: 40px;
+
+    /* border: 1px solid black; */
+    text-align: end;
+ 
+}
